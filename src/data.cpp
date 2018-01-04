@@ -1,10 +1,11 @@
 
 #include "data.hpp"
+
 #include <stdlib.h>  
-#include <iostream>
+
 #include <fcntl.h>
 #include <stdexcept>
-#include "time.h"
+#include<time>
 
 
 Data::Data(const char* bedfile, const char* famfile, bool verbose)
