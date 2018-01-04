@@ -5,7 +5,7 @@
 
 #include <fcntl.h>
 #include <stdexcept>
-#include<time>
+#include "time.h"
 
 
 Data::Data(const char* bedfile, const char* famfile, bool verbose)
