@@ -6,9 +6,7 @@
 #define m 0x100000000LL  
 #define c 0xB16  
 #define a 0x5DEECE66DL
-#include "data.hpp"
-
-#include <stdlib.h>  
+#include "data.hpp" 
 
 #include <fcntl.h>
 #include <stdexcept>
